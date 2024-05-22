@@ -1,0 +1,31 @@
+.product-item-container {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+.product-item-image {
+  height: 250px;
+  width: 250px;
+}
+.product-item-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+.product-item-title {
+  color: #4d474d;
+  font-family: "Roboto";
+  font-size: 10px;
+}
+.product-item-description {
+  color: #000000;
+  font-family: "Roboto";
+  font-size: 13px;
+}
+.product-item-price {
+  color: #000000;
+  font-family: "Roboto";
+  font-size: 11px;
+}
